@@ -54,7 +54,7 @@ article {
 
 .hopwork span {
     display: inline-block;
-    background-image: url("../img/hopwork.jpg");
+    background-image: url("../img/hopWork.jpg");
     width: 30px;
     height: 28px;
     font-size: 0;
@@ -94,4 +94,63 @@ article {
 
 .clear {
     clear: both;
+}
+
+#home {
+    background-image: url("../img/lyon_background.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    padding: 0;
+}
+
+#home h1 {
+    background-color: #FFF;
+    text-align: center;
+    display: table-cell;
+    padding-top: 250px;
+}
+
+#home > div > div {
+    height: 600px;
+    text-align: center;
+    display: table-row;
+    padding-left: 100px;
+}
+
+#home > div {
+    background-image: url("../img/transition.png");
+    background-repeat: no-repeat;
+    margin-left: 550px;
+    padding-left: 185px;
+}
+
+#navbar {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    margin:0;
+}
+
+body {
+    padding: 0;
+}
+
+@media(max-width:950px) {
+    #home > div {
+        float: right;
+        margin-left: 0;
+    }
+}
+
+@media(max-width:480px) {
+    #members li {
+        width: auto;
+        display:block;
+    }
+}
+
+.lt-ie9 #navbar
+{
+    display: none;
 }
