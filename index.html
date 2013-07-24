@@ -1,125 +1,273 @@
 ﻿<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
+<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>DevLyon - Communauté d'indépendant à Lyon</title>
-    <meta name="description" content="DevLyon - Communauté d'indépendant à Lyon">
-    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+    <title>DevLyon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="freelance, lyon, developpement, informatique">
+    <script src="js/jquery_002.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/jquery-1.7.2.min.js"><\/script>')</script>
+    <script src="js/jquery-ui-1.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/modernizr-2.js"></script>
+    <link href="css/css_002.css" rel="stylesheet" type="text/css">
+    <link href="css/css.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/all.min.css">
+    <!-- IE Fix for HTML5 Tags -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 </head>
-<body data-spy="scroll" data-target="#navbar">
-    <div id="navbar" class="navbar navbar-fixed-top navbar-inverse">
-        <ul class="nav">
-            <li class="active"><a href="#home">Accueil</a></li>
-            <li><a href="#apropos">Qui sommes-nous ?</a></li>
-            <li><a href="#members">Les membres</a></li>
-            <li><a href="#contact">Nous contacter</a></li>
-        </ul>
+<body>
+<div id="big-video-wrap">
+    <div style="background-image: url('img/lyon.jpeg'); opacity: 0.8; width: 1904px; height: 1071px; display: block; top: -94px; left: 0px;" height="150" width="300"
+         class="video-js vjs-default-skin vjs-playing" id="big-video-vid">
+
     </div>
-    <div class="clear"></div>
-    <header id="home">
-        <div>
-            <div>
-				<div class="separator">&nbsp;</div>
-                <h1>
-                    <img src="img/logoDevLyon.png" />
-                </h1>
+</div>
+
+<!-- Navbar -->
+<div class="navbar navbar-fixed-top" style="background-color: red">
+    <div class="navbar-inner" style="background-color: #c56f73">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a class="brand scroller" data-section="html" href="#">DevLyon</a>
+
+            <div class="nav-collapse collapse">
+                <ul class="nav pull-right">
+                    <li><a href="#" class="scroller" data-section="#about">A propos</a></li>
+                    <li><a href="#" class="scroller" data-section="#team">L'équipe</a></li>
+                    <li><a href="#" class="scroller" data-section="#contact">Contactez nous</a></li>
+                </ul>
             </div>
         </div>
-    </header>
-    <article id="apropos">
-        <h2>Qui sommes-nous ?</h2>
-        <h3>Groupe d'entraide ayant pour objectif de promouvoir notre vision de l'informatique.</h3>
-        <h3>Une vision où la qualité du logiciel est mise en avant, où les informaticiens sont des créateurs de valeurs.</h3>
-    </article>
-    <article id="members">
-        <h2>Les membres</h2>
-        <ul>
-            <li>
-                <div><img alt="Alfred Almendra" src="img/alfred_almendra.jpg" /></div>
-                <div class="name">Alfred Almendra</div>
-                <div>
-                    <a class="sprite twitter" target="_blank" href="https://twitter.com/AlfredAlmendra"><span>@AlfredAlmendra</span></a>
-                    <a class="sprite hopwork" target="_blank" href="http://hopwork.com/profile/513e520fd393273e34af0224"><span>Hopwork</span></a>
-                    <a class="sprite github" target="_blank" href="ttps://github.com/alfredalmendra"><span>GitHub</span></a>
-                    <a class="sprite linkedin" target="_blank" href="http://fr.linkedin.com/in/alfredalmendra/fr"><span>Linkedin</span></a>
-                    <a class="sprite viadeo" target="_blank" href="http://fr.viadeo.com/fr/profile/alfred.almendra"><span>Viadeo</span></a>
-                </div>
-            </li>
-            <li>
-                <div><img alt="Emilien Pecoul" src="img/emilien_pecoul.jpg" /></div>
-                <div class="name">Emilien Pecoul</div>
-                <div>
-                    <a class="sprite twitter" target="_blank" href="https://twitter.com/Ouarzy"><span>@Ouarzy</span></a>
-                    <a class="sprite hopwork" target="_blank" href="http://www.hopwork.com/profile/515fcaa5ed85b7b6c19b6627"><span>Hopwork</span></a>
-                    <a class="sprite github" target="_blank" href="https://github.com/Ouarzy"><span>GitHub</span></a>
-                    <a class="sprite linkedin" target="_blank" href="http://fr.linkedin.com/pub/emilien-pecoul/53/91/6a0"><span>Linkedin</span></a>
-                    <a class="sprite viadeo" target="_blank" href="http://fr.viadeo.com/fr/profile/emilien.pecoul"><span>Viadeo</span></a>
-                </div>
-                <div><a target="_blank" href="http://ouarzy.blog4ever.com/">ouarzy.blog4ever.com</a></div>
-                <div><span>epecoul'at'gmail.com</span></div>
-            </li>
-            <li>
-                <div><img alt="Florent Pellet" src="img/florent_pellet.jpg" /></div>
-                <div class="name">Florent Pellet</div>
-                <div>
-                    <a class="sprite twitter" target="_blank" href="https://twitter.com/florentpellet"><span>@florentpellet</span></a>
-                    <a class="sprite hopwork" target="_blank" href="http://www.hopwork.com/profile/510d5eb2d393273e34aeff18"><span>Hopwork</span></a>
-                    <a class="sprite github" target="_blank" href="https://github.com/fpellet"><span>GitHub</span></a>
-                    <a class="sprite linkedin" target="_blank" href="http://fr.linkedin.com/in/florentpellet"><span>Linkedin</span></a>
-                    <a class="sprite viadeo" target="_blank" href="http://fr.viadeo.com/fr/profile/florent.pellet"><span>Viadeo</span></a>
-                </div>
-                <a target="_blank" href="http://www.florentpellet.fr/">www.florentpellet.fr</a>
-                <a target="_blank" href="http://www.wittycoding.com/">www.wittycoding.com</a>
-            </li>
-            <li>
-                <div><img alt="Hugo Lassiège" src="img/hugo_lassiege.jpg" /></div>
-                <div class="name">Hugo Lassiège</div>
-                <div>
-                    <a class="sprite twitter" target="_blank" href="https://twitter.com/hugolassiege"><span>@hugolassiege</span></a>
-                    <a class="sprite hopwork" target="_blank" href="http://www.hopwork.com/profile/506987a2e4b07933abd78d4b"><span>Hopwork</span></a>
-                    <a class="sprite github" target="_blank" href="https://github.com/hlassiege"><span>GitHub</span></a>
-                    <a class="sprite linkedin" target="_blank" href="http://fr.linkedin.com/in/hugolassiege"><span>Linkedin</span></a>
-                </div>
-                <div><a target="_blank" href="http://hakanai.free.fr/">hakanai.free.fr</a></div>
-            </li>
-            <li>
-                <div><img alt="Pascal Craponne" src="img/pascal_craponne.jpg" /></div>
-                <div class="name">Pascal Craponne</div>
-                <div>
-                    <a class="sprite twitter" target="_blank" href="https://twitter.com/picrap"><span>@picrap</span></a>
-                    <a class="sprite github" target="_blank" href="https://github.com/picrap"><span>GitHub</span></a>
-                    <a class="sprite linkedin" target="_blank" href="http://fr.linkedin.com/in/pascalcraponne"><span>Linkedin</span></a>
-                    <a class="sprite viadeo" target="_blank" href="http://fr.viadeo.com/fr/profile/pascal.craponne"><span>Viadeo</span></a>
-                </div>
-            </li>
-        </ul>
-        <div class="clear"></div>
-    </article>
-    <article id="contact">
-        <h2>Nous contacter</h2>
-        <h3>Contactez nous directement par mail, Twitter ou Hopwork</h3>
-    </article>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-39428743-1']);
-        _gaq.push(['_trackPageview']);
+    </div>
+</div>
+<!-- end Navbar -->
 
-        (function () {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
+
+<!-- #intro -->
+<div class="main-container">
+    <div class="container-fluid" id="intro">
+        <div class="container">
+            <div class="row span6 center">
+                <h1>Et si on créait de la valeur ?</h1>
+
+                <img src="img/logoDevLyon.png"/>
+                <p>Groupe d'entraide ayant pour objectif de promouvoir notre vision de l'informatique.
+                    Une vision où la qualité du logiciel est mise en avant, où les informaticiens sont des créateurs de valeurs.
+                </p>
+                <a href="#" data-section="#contact" class="scroller btn btn-xlarge btn-purple">Contactez nous</a>
+            </div>
+        </div>
+    </div>
+    <!-- ends Intro -->
+
+
+    <!-- #about -->
+    <div class="container-fluid" id="about">
+        <div class="container light">
+            <h1>Ce que nous pouvons offrir</h1>
+            <ul class="thumbnails">
+                <li class="span4">
+                    <div class="thumbnail">
+                        <img alt="" src="img/icon1.png">
+
+                        <h3>Un réseau</h3>
+
+                        <p>DevLyon c'est un réseau de personnes, des développeurs, des agilistes, des formateurs sur de multiples technos.</p>
+                    </div>
+                </li>
+
+                <li class="span4">
+                    <div class="thumbnail">
+                        <img alt="" src="img/icon2.png">
+
+                        <h3>Une recherche de la qualité</h3>
+
+                        <p>DevLyon regroupe des professionnels dont l'objectif est de créer de la valeur. Et pour cela, il n'y a pas de secret, il faut rechercher la qualité</p>
+                    </div>
+                </li>
+
+                <li class="span4">
+                    <div class="thumbnail">
+                        <img alt="" src="img/icon3.png">
+
+                        <h3>Des solutions adaptées</h3>
+
+                        <p>En tant que freelances nous nous devons de nous remettre régulièrement à jour, la question ne se pose pas. Et c'est ce qui nous permet de proposer des solutions innovantes mais pragmatiques</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- ends About -->
+
+
+    <!-- #team -->
+    <div class="container-fluid" id="team">
+        <div class="container dark">
+            <h1>L'équipe</h1>
+            <ul class="thumbnails">
+                <li class="span3">
+                    <div class="thumbnail">
+                        <img alt="" src="img/alfred_almendra.jpg" class="img-circle img-polaroid" width="148" height="148">
+
+                        <h3>Alfred Almendra</h3>
+
+
+
+                        <div class="social">
+                            <img alt="" src="img/linkedin.png">
+                            <img alt="" src="img/twitter.png">
+                            <img alt="" src="img/facebook.png">
+                            <img alt="" src="img/email.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li class="span3">
+                    <div class="thumbnail">
+                        <img alt="" src="img/emilien_pecoul.jpg" class="img-circle img-polaroid" width="148" height="148">
+
+                        <h3>Emilien Pecoul</h3>
+
+
+                        <div class="social">
+                            <img alt="" src="img/linkedin.png">
+                            <img alt="" src="img/twitter.png">
+                            <img alt="" src="img/facebook.png">
+                            <img alt="" src="img/email.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li class="span3">
+                    <div class="thumbnail">
+                        <img alt="" src="img/florent_pellet.jpg" class="img-circle img-polaroid" width="148" height="148">
+
+                        <h3>Florent Pellet</h3>
+
+
+                        <div class="social">
+                            <img alt="" src="img/linkedin.png">
+                            <img alt="" src="img/twitter.png">
+                            <img alt="" src="img/facebook.png">
+                            <img alt="" src="img/email.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li class="span3">
+                    <div class="thumbnail">
+                        <img alt="" src="img/hugo_lassiege.jpg" class="img-circle img-polaroid" width="148" height="148">
+
+                        <h3>Hugo Lassiège</h3>
+
+
+                        <div class="social">
+                            <img alt="" src="img/linkedin.png">
+                            <img alt="" src="img/twitter.png">
+                            <img alt="" src="img/facebook.png">
+                            <img alt="" src="img/email.png">
+                        </div>
+                    </div>
+                </li>
+
+                <li class="span3">
+                    <div class="thumbnail">
+                        <img alt="" src="img/pascal_craponne.jpg" class="img-circle img-polaroid" width="148" height="148">
+
+                        <h3>Pascal Craponne</h3>
+
+
+                        <div class="social">
+                            <img alt="" src="img/linkedin.png">
+                            <img alt="" src="img/twitter.png">
+                            <img alt="" src="img/facebook.png">
+                            <img alt="" src="img/email.png">
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <!-- End Team -->
+
+
+    <!-- #contact -->
+    <div class="container-fluid" id="contact">
+        <div class="container dark">
+            <h1>Contactez-nous</h1>
+
+            <div class="span5">
+                <form action="mailto:devlyon@googlegroups.com">
+                    <div class="control-group">
+                        <label class="control-label" for="inputName">Votre nom</label>
+
+                        <div class="controls">
+                            <input class="span4" id="inputName" placeholder="" type="text">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label" for="inputEmail">Votre email</label>
+
+                        <div class="controls">
+                            <input class="span4" id="inputEmail" placeholder="" type="text">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label" for="inputContact">Message</label>
+
+                        <div class="controls">
+                            <textarea id="inputContact" class="span4" placeholder="Laissez-nous un message"></textarea>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="controls">
+                            <button type="submit" class="btn btn-purple">Envoyez</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="span4">
+                <h2>Ou mieux, rencontrons-nous</h2>
+
+                <p>Nous sommes régulièrement présents sur les évènements de Lyon : MUG, JUG, LyonJs etc...</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact -->
+</div>
+<script>
+    $(function () {
+        $(window).scroll(function () {
+            // global scroll to top button
+            if ($(this).scrollTop() > 300) {
+                $('.scrolltop').fadeIn();
+            } else {
+                $('.scrolltop').fadeOut();
+            }
+        });
+
+        // scroll nav
+        $('.scroller').click(function () {
+            var section = $($(this).data("section"));
+            var top = section.offset().top - 82;
+            $("html, body").animate({ scrollTop: top }, 700);
+            return false;
+        });
+    });
+</script>
 </body>
 </html>
