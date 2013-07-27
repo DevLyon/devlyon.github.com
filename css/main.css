@@ -375,3 +375,9 @@ h1 {
 	position:relative;
 	display:none;
 }
+
+.iconSprite { background: url('../img/iconSprite.png') no-repeat top left; width: 23px; height: 23px; display: inline-block; margin-right: 4px;  } 
+.iconSprite.email { background-position: 0px 0px;  } 
+.iconSprite.github { background-position: 0px -33px;  } 
+.iconSprite.linkedin { background-position: 0px -66px;  } 
+.iconSprite.twitter { background-position: 0px -99px;  } 
