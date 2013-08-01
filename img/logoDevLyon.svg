@@ -124,7 +124,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.2502642"
-     inkscape:cx="478.60377"
+     inkscape:cx="341.03285"
      inkscape:cy="951.25149"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -142,7 +142,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -192,7 +192,5 @@
            width="426.24094"
            id="rect3007" /></flowRegion><flowPara
          id="flowPara3009"
-         style="fill:#ad2109;fill-opacity:1;stroke:none"><flowSpan
-           style="font-size:72px;font-weight:bold;fill:#ad2109;fill-opacity:1;stroke:none;-inkscape-font-specification:Nirmala UI Bold"
-           id="flowSpan3037">/ Lyon</flowSpan></flowPara></flowRoot>  </g>
+         style="font-size:72px;font-weight:bold;fill:#da2128;fill-opacity:1;stroke:none;-inkscape-font-specification:Nirmala UI Bold">/ Lyon</flowPara></flowRoot>  </g>
 </svg>
