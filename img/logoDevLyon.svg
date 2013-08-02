@@ -124,15 +124,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.2502642"
-     inkscape:cx="341.03285"
+     inkscape:cx="19.50081"
      inkscape:cy="951.25149"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1280"
-     inkscape:window-height="961"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1600"
+     inkscape:window-height="823"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -142,7 +142,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -175,7 +175,7 @@
            y="38.076469"
            style="font-size:72px;font-weight:bold;-inkscape-font-specification:Nirmala UI Bold;font-family:Nirmala UI;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%;fill:#0076a2;fill-opacity:1;stroke:none;stroke-opacity:1" /></flowRegion><flowPara
          id="flowPara2999"
-         style="stroke:none;stroke-opacity:1;fill:#cccccc">/DEV</flowPara></flowRoot>    <flowRoot
+         style="stroke:none;stroke-opacity:1;fill:#2b7bb8;fill-opacity:1">/DEV</flowPara></flowRoot>    <flowRoot
        transform="translate(97.431531,125.14117)"
        style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ad2109;fill-opacity:1;stroke:none;filter:url(#filter4057);font-family:Nirmala UI;-inkscape-font-specification:Nirmala UI Bold"
        id="flowRoot3003"
@@ -192,5 +192,5 @@
            width="426.24094"
            id="rect3007" /></flowRegion><flowPara
          id="flowPara3009"
-         style="font-size:72px;font-weight:bold;fill:#da2128;fill-opacity:1;stroke:none;-inkscape-font-specification:Nirmala UI Bold">/ Lyon</flowPara></flowRoot>  </g>
+         style="font-size:72px;font-weight:bold;fill:#ce1828;fill-opacity:1;stroke:none;-inkscape-font-specification:Nirmala UI Bold">/ Lyon</flowPara></flowRoot>  </g>
 </svg>
